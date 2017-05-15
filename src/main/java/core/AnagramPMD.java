@@ -46,19 +46,19 @@ public class AnagramPMD {
 	    System.out.println("Охренеть and Не хрена себе is anagram? - " + AnagramPMD.validate("Охренеть", "Не хрена себе"));
 	       }
 	
-	private String checkStrValue = null;
-		public AnagramPMD() {
-			this.checkStrValue = "SomeValue";		
-		}
+	//private String checkStrValue = null;
+	//	public AnagramPMD() {
+	//		this.checkStrValue = "SomeValue";		
+	//	}
 	
-	private void executeSomeConditions() {
-		if ("SomeValue".equals(this.checkStrValue)) {}
-		else if ("SomeValue".equals(this.checkStrValue)) {}	
-	}
+	//private void executeSomeConditions() {
+	//	if ("SomeValue".equals(this.checkStrValue)) {}
+	//	else if ("SomeValue".equals(this.checkStrValue)) {}	
+	//}
 	
-	private static void incorrectAssignmentInIfCondition() {
-		boolean value = false;
-		if (value = true) {}
-		else {}		
-	}  
+	//private static void incorrectAssignmentInIfCondition() {
+	//	boolean value = false;
+	//	if (value = true) {}
+	//	else {}		
+	//}  
 }
